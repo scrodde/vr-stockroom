@@ -1,0 +1,350 @@
+# Logfile created on 2016-12-13 15:35:34 +0200 by logger.rb/47272
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-13 15:35:34 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [ababf32b] Running /usr/bin/env mkdir -p /tmp as scrodde@scrod.de
+ DEBUG [ababf32b] Command: /usr/bin/env mkdir -p /tmp
+  INFO [ababf32b] Finished in 8.219 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-vr-stockroom-production-scrodde.sh 0.0%
+  INFO Uploading /tmp/git-ssh-vr-stockroom-production-scrodde.sh 100.0%
+  INFO [00583199] Running /usr/bin/env chmod 700 /tmp/git-ssh-vr-stockroom-production-scrodde.sh as scrodde@scrod.de
+ DEBUG [00583199] Command: /usr/bin/env chmod 700 /tmp/git-ssh-vr-stockroom-production-scrodde.sh
+  INFO [00583199] Finished in 0.217 seconds with exit status 0 (successful).
+  INFO [6c3a425f] Running /usr/bin/env git ls-remote --heads git@github.com:scrodde/vr-stockroom.git as scrodde@scrod.de
+ DEBUG [6c3a425f] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vr-stockroom-production-scrodde.sh" ; /usr/bin/env git ls-remote --heads git@github.com:scrodde/vr-stockroom.git )
+ DEBUG [6c3a425f] 	Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+ DEBUG [6c3a425f] 	Permission denied (publickey).
+ DEBUG [6c3a425f] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-13 15:36:13 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [573e4844] Running /usr/bin/env mkdir -p /tmp as scrodde@scrod.de
+ DEBUG [573e4844] Command: /usr/bin/env mkdir -p /tmp
+  INFO [573e4844] Finished in 2.092 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-vr-stockroom-production-scrodde.sh 0.0%
+  INFO Uploading /tmp/git-ssh-vr-stockroom-production-scrodde.sh 100.0%
+  INFO [8872f787] Running /usr/bin/env chmod 700 /tmp/git-ssh-vr-stockroom-production-scrodde.sh as scrodde@scrod.de
+ DEBUG [8872f787] Command: /usr/bin/env chmod 700 /tmp/git-ssh-vr-stockroom-production-scrodde.sh
+  INFO [8872f787] Finished in 0.217 seconds with exit status 0 (successful).
+  INFO [12d15d79] Running /usr/bin/env git ls-remote --heads git@github.com:scrodde/vr-stockroom.git as scrodde@scrod.de
+ DEBUG [12d15d79] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vr-stockroom-production-scrodde.sh" ; /usr/bin/env git ls-remote --heads git@github.com:scrodde/vr-stockroom.git )
+ DEBUG [12d15d79] 	Warning: Permanently added the RSA host key for IP address '192.30.253.113' to the list of known hosts.
+ DEBUG [12d15d79] 	Permission denied (publickey).
+ DEBUG [12d15d79] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-13 15:37:24 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2f446a55] Running /usr/bin/env mkdir -p /tmp as scrodde@scrod.de
+ DEBUG [2f446a55] Command: /usr/bin/env mkdir -p /tmp
+  INFO [2f446a55] Finished in 2.273 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-vr-stockroom-production-scrodde.sh 0.0%
+  INFO Uploading /tmp/git-ssh-vr-stockroom-production-scrodde.sh 100.0%
+  INFO [373a04e0] Running /usr/bin/env chmod 700 /tmp/git-ssh-vr-stockroom-production-scrodde.sh as scrodde@scrod.de
+ DEBUG [373a04e0] Command: /usr/bin/env chmod 700 /tmp/git-ssh-vr-stockroom-production-scrodde.sh
+  INFO [373a04e0] Finished in 0.281 seconds with exit status 0 (successful).
+  INFO [5bee8cc4] Running /usr/bin/env git ls-remote --heads git@github.com:scrodde/vr-stockroom.git as scrodde@scrod.de
+ DEBUG [5bee8cc4] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vr-stockroom-production-scrodde.sh" ; /usr/bin/env git ls-remote --heads git@github.com:scrodde/vr-stockroom.git )
+ DEBUG [5bee8cc4] 	Permission denied (publickey).
+ DEBUG [5bee8cc4] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-13 15:40:52 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [9136886c] Running /usr/bin/env mkdir -p /tmp as scrodde@scrod.de
+ DEBUG [9136886c] Command: /usr/bin/env mkdir -p /tmp
+  INFO [9136886c] Finished in 1.652 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-vr-stockroom-production-scrodde.sh 0.0%
+  INFO Uploading /tmp/git-ssh-vr-stockroom-production-scrodde.sh 100.0%
+  INFO [1069fa1c] Running /usr/bin/env chmod 700 /tmp/git-ssh-vr-stockroom-production-scrodde.sh as scrodde@scrod.de
+ DEBUG [1069fa1c] Command: /usr/bin/env chmod 700 /tmp/git-ssh-vr-stockroom-production-scrodde.sh
+  INFO [1069fa1c] Finished in 0.213 seconds with exit status 0 (successful).
+  INFO [a2b34d9c] Running /usr/bin/env git ls-remote --heads git@github.com:scrodde/vr-stockroom.git as scrodde@scrod.de
+ DEBUG [a2b34d9c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vr-stockroom-production-scrodde.sh" ; /usr/bin/env git ls-remote --heads git@github.com:scrodde/vr-stockroom.git )
+ DEBUG [a2b34d9c] 	Permission denied (publickey).
+ DEBUG [a2b34d9c] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-13 15:41:21 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [f4dafb69] Running /usr/bin/env mkdir -p /tmp as scrodde@scrod.de
+ DEBUG [f4dafb69] Command: /usr/bin/env mkdir -p /tmp
+  INFO [f4dafb69] Finished in 2.079 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-vr-stockroom-production-scrodde.sh 0.0%
+  INFO Uploading /tmp/git-ssh-vr-stockroom-production-scrodde.sh 100.0%
+  INFO [cf568d17] Running /usr/bin/env chmod 700 /tmp/git-ssh-vr-stockroom-production-scrodde.sh as scrodde@scrod.de
+ DEBUG [cf568d17] Command: /usr/bin/env chmod 700 /tmp/git-ssh-vr-stockroom-production-scrodde.sh
+  INFO [cf568d17] Finished in 0.220 seconds with exit status 0 (successful).
+  INFO [c56894f9] Running /usr/bin/env git ls-remote --heads git@github.com:scrodde/vr-stockroom.git as scrodde@scrod.de
+ DEBUG [c56894f9] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vr-stockroom-production-scrodde.sh" ; /usr/bin/env git ls-remote --heads git@github.com:scrodde/vr-stockroom.git )
+ DEBUG [c56894f9] 	cf5c6a4c6d2a686635086da5b8a464b8255a24bc	refs/heads/master
+  INFO [c56894f9] Finished in 0.730 seconds with exit status 0 (successful).
+  INFO [bd5d99d8] Running /usr/bin/env mkdir -p ~/apps/vr-stockroom/shared ~/apps/vr-stockroom/releases as scrodde@scrod.de
+ DEBUG [bd5d99d8] Command: /usr/bin/env mkdir -p ~/apps/vr-stockroom/shared ~/apps/vr-stockroom/releases
+  INFO [bd5d99d8] Finished in 0.221 seconds with exit status 0 (successful).
+ DEBUG [ffad68cd] Running [ -f ~/apps/vr-stockroom/current/REVISION ] as scrodde@scrod.de
+ DEBUG [ffad68cd] Command: [ -f ~/apps/vr-stockroom/current/REVISION ]
+ DEBUG [ffad68cd] Finished in 0.216 seconds with exit status 1 (failed).
+ DEBUG [60950808] Running [ -f ~/apps/vr-stockroom/repo/HEAD ] as scrodde@scrod.de
+ DEBUG [60950808] Command: [ -f ~/apps/vr-stockroom/repo/HEAD ]
+ DEBUG [60950808] Finished in 0.212 seconds with exit status 1 (failed).
+ DEBUG [08fc9795] Running if test ! -d ~/apps/vr-stockroom; then echo "Directory does not exist '~/apps/vr-stockroom'" 1>&2; false; fi as scrodde@scrod.de
+ DEBUG [08fc9795] Command: if test ! -d ~/apps/vr-stockroom; then echo "Directory does not exist '~/apps/vr-stockroom'" 1>&2; false; fi
+ DEBUG [08fc9795] Finished in 0.211 seconds with exit status 0 (successful).
+  INFO [743ad83c] Running /usr/bin/env git clone --mirror git@github.com:scrodde/vr-stockroom.git ~/apps/vr-stockroom/repo as scrodde@scrod.de
+ DEBUG [743ad83c] Command: cd ~/apps/vr-stockroom && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vr-stockroom-production-scrodde.sh" ; /usr/bin/env git clone --mirror git@github.com:scrodde/vr-stockroom.git ~/apps/vr-stockroom/repo )
+ DEBUG [743ad83c] 	Cloning into bare repository '/home/scrodde/apps/vr-stockroom/repo'...
+  INFO [743ad83c] Finished in 1.042 seconds with exit status 0 (successful).
+ DEBUG [440d17fb] Running if test ! -d ~/apps/vr-stockroom/repo; then echo "Directory does not exist '~/apps/vr-stockroom/repo'" 1>&2; false; fi as scrodde@scrod.de
+ DEBUG [440d17fb] Command: if test ! -d ~/apps/vr-stockroom/repo; then echo "Directory does not exist '~/apps/vr-stockroom/repo'" 1>&2; false; fi
+ DEBUG [440d17fb] Finished in 0.215 seconds with exit status 0 (successful).
+  INFO [cce46035] Running /usr/bin/env git remote update --prune as scrodde@scrod.de
+ DEBUG [cce46035] Command: cd ~/apps/vr-stockroom/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vr-stockroom-production-scrodde.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [cce46035] 	Fetching origin
+  INFO [cce46035] Finished in 0.722 seconds with exit status 0 (successful).
+ DEBUG [74336af6] Running if test ! -d ~/apps/vr-stockroom/repo; then echo "Directory does not exist '~/apps/vr-stockroom/repo'" 1>&2; false; fi as scrodde@scrod.de
+ DEBUG [74336af6] Command: if test ! -d ~/apps/vr-stockroom/repo; then echo "Directory does not exist '~/apps/vr-stockroom/repo'" 1>&2; false; fi
+ DEBUG [74336af6] Finished in 0.213 seconds with exit status 0 (successful).
+  INFO [955a3b0a] Running /usr/bin/env mkdir -p ~/apps/vr-stockroom/releases/20161213134127 as scrodde@scrod.de
+ DEBUG [955a3b0a] Command: cd ~/apps/vr-stockroom/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vr-stockroom-production-scrodde.sh" ; /usr/bin/env mkdir -p ~/apps/vr-stockroom/releases/20161213134127 )
+  INFO [955a3b0a] Finished in 0.215 seconds with exit status 0 (successful).
+  INFO [14607d49] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C ~/apps/vr-stockroom/releases/20161213134127 as scrodde@scrod.de
+ DEBUG [14607d49] Command: cd ~/apps/vr-stockroom/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vr-stockroom-production-scrodde.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C ~/apps/vr-stockroom/releases/20161213134127 )
+  INFO [14607d49] Finished in 0.312 seconds with exit status 0 (successful).
+ DEBUG [396104ea] Running if test ! -d ~/apps/vr-stockroom/repo; then echo "Directory does not exist '~/apps/vr-stockroom/repo'" 1>&2; false; fi as scrodde@scrod.de
+ DEBUG [396104ea] Command: if test ! -d ~/apps/vr-stockroom/repo; then echo "Directory does not exist '~/apps/vr-stockroom/repo'" 1>&2; false; fi
+ DEBUG [396104ea] Finished in 0.212 seconds with exit status 0 (successful).
+ DEBUG [349c13d8] Running /usr/bin/env git rev-list --max-count=1 master as scrodde@scrod.de
+ DEBUG [349c13d8] Command: cd ~/apps/vr-stockroom/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vr-stockroom-production-scrodde.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [349c13d8] 	cf5c6a4c6d2a686635086da5b8a464b8255a24bc
+ DEBUG [349c13d8] Finished in 0.217 seconds with exit status 0 (successful).
+ DEBUG [721f0d30] Running if test ! -d ~/apps/vr-stockroom/releases/20161213134127; then echo "Directory does not exist '~/apps/vr-stockroom/releases/20161213134127'" 1>&2; false; fi as scrodde@scrod.de
+ DEBUG [721f0d30] Command: if test ! -d ~/apps/vr-stockroom/releases/20161213134127; then echo "Directory does not exist '~/apps/vr-stockroom/releases/20161213134127'" 1>&2; false; fi
+ DEBUG [721f0d30] Finished in 0.212 seconds with exit status 0 (successful).
+  INFO [d63c87d2] Running /usr/bin/env echo "cf5c6a4c6d2a686635086da5b8a464b8255a24bc" >> REVISION as scrodde@scrod.de
+ DEBUG [d63c87d2] Command: cd ~/apps/vr-stockroom/releases/20161213134127 && /usr/bin/env echo "cf5c6a4c6d2a686635086da5b8a464b8255a24bc" >> REVISION
+  INFO [d63c87d2] Finished in 0.223 seconds with exit status 0 (successful).
+  INFO [a70b0b98] Running /usr/bin/env ln -s ~/apps/vr-stockroom/releases/20161213134127 ~/apps/vr-stockroom/releases/current as scrodde@scrod.de
+ DEBUG [a70b0b98] Command: /usr/bin/env ln -s ~/apps/vr-stockroom/releases/20161213134127 ~/apps/vr-stockroom/releases/current
+  INFO [a70b0b98] Finished in 0.226 seconds with exit status 0 (successful).
+  INFO [4ef1cccd] Running /usr/bin/env mv ~/apps/vr-stockroom/releases/current ~/apps/vr-stockroom as scrodde@scrod.de
+ DEBUG [4ef1cccd] Command: /usr/bin/env mv ~/apps/vr-stockroom/releases/current ~/apps/vr-stockroom
+  INFO [4ef1cccd] Finished in 0.223 seconds with exit status 0 (successful).
+ DEBUG [73cf3d88] Running /usr/bin/env ls -x ~/apps/vr-stockroom/releases as scrodde@scrod.de
+ DEBUG [73cf3d88] Command: /usr/bin/env ls -x ~/apps/vr-stockroom/releases
+ DEBUG [73cf3d88] 	20161213134127
+ DEBUG [73cf3d88] Finished in 0.220 seconds with exit status 0 (successful).
+ DEBUG [ff204e2d] Running if test ! -d ~/apps/vr-stockroom/releases; then echo "Directory does not exist '~/apps/vr-stockroom/releases'" 1>&2; false; fi as scrodde@scrod.de
+ DEBUG [ff204e2d] Command: if test ! -d ~/apps/vr-stockroom/releases; then echo "Directory does not exist '~/apps/vr-stockroom/releases'" 1>&2; false; fi
+ DEBUG [ff204e2d] Finished in 0.217 seconds with exit status 0 (successful).
+  INFO [cbace430] Running /usr/bin/env echo "Branch master (at cf5c6a4c6d2a686635086da5b8a464b8255a24bc) deployed as release 20161213134127 by scrodde" >> ~/apps/vr-stockroom/revisions.log as scrodde@scrod.de
+ DEBUG [cbace430] Command: cd ~/apps/vr-stockroom/releases && /usr/bin/env echo "Branch master (at cf5c6a4c6d2a686635086da5b8a464b8255a24bc) deployed as release 20161213134127 by scrodde" >> ~/apps/vr-stockroom/revisions.log
+  INFO [cbace430] Finished in 0.220 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-13 15:42:46 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [0f420c93] Running /usr/bin/env mkdir -p /tmp as scrodde@scrod.de
+ DEBUG [0f420c93] Command: /usr/bin/env mkdir -p /tmp
+  INFO [0f420c93] Finished in 1.819 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-vr-stockroom-production-scrodde.sh 0.0%
+  INFO Uploading /tmp/git-ssh-vr-stockroom-production-scrodde.sh 100.0%
+  INFO [bff45085] Running /usr/bin/env chmod 700 /tmp/git-ssh-vr-stockroom-production-scrodde.sh as scrodde@scrod.de
+ DEBUG [bff45085] Command: /usr/bin/env chmod 700 /tmp/git-ssh-vr-stockroom-production-scrodde.sh
+  INFO [bff45085] Finished in 0.217 seconds with exit status 0 (successful).
+  INFO [7a6870b0] Running /usr/bin/env git ls-remote --heads git@github.com:scrodde/vr-stockroom.git as scrodde@scrod.de
+ DEBUG [7a6870b0] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vr-stockroom-production-scrodde.sh" ; /usr/bin/env git ls-remote --heads git@github.com:scrodde/vr-stockroom.git )
+ DEBUG [7a6870b0] 	cf5c6a4c6d2a686635086da5b8a464b8255a24bc	refs/heads/master
+  INFO [7a6870b0] Finished in 0.723 seconds with exit status 0 (successful).
+  INFO [38cb3b85] Running /usr/bin/env mkdir -p ~/apps/vr-stockroom/shared ~/apps/vr-stockroom/releases as scrodde@scrod.de
+ DEBUG [38cb3b85] Command: /usr/bin/env mkdir -p ~/apps/vr-stockroom/shared ~/apps/vr-stockroom/releases
+  INFO [38cb3b85] Finished in 0.216 seconds with exit status 0 (successful).
+  INFO [acf1baa1] Running /usr/bin/env mkdir -p ~/apps/vr-stockroom/shared/config as scrodde@scrod.de
+ DEBUG [acf1baa1] Command: /usr/bin/env mkdir -p ~/apps/vr-stockroom/shared/config
+  INFO [acf1baa1] Finished in 0.219 seconds with exit status 0 (successful).
+ DEBUG [46727a26] Running [ -f ~/apps/vr-stockroom/shared/config/pm2.json ] as scrodde@scrod.de
+ DEBUG [46727a26] Command: [ -f ~/apps/vr-stockroom/shared/config/pm2.json ]
+ DEBUG [46727a26] Finished in 0.216 seconds with exit status 1 (failed).
+ ERROR linked file ~/apps/vr-stockroom/shared/config/pm2.json does not exist on scrod.de
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-13 15:43:35 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b9fdb28d] Running /usr/bin/env mkdir -p /tmp as scrodde@scrod.de
+ DEBUG [b9fdb28d] Command: /usr/bin/env mkdir -p /tmp
+  INFO [b9fdb28d] Finished in 1.895 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-vr-stockroom-production-scrodde.sh 0.0%
+  INFO Uploading /tmp/git-ssh-vr-stockroom-production-scrodde.sh 100.0%
+  INFO [ccc38b5c] Running /usr/bin/env chmod 700 /tmp/git-ssh-vr-stockroom-production-scrodde.sh as scrodde@scrod.de
+ DEBUG [ccc38b5c] Command: /usr/bin/env chmod 700 /tmp/git-ssh-vr-stockroom-production-scrodde.sh
+  INFO [ccc38b5c] Finished in 0.208 seconds with exit status 0 (successful).
+  INFO [d77e9538] Running /usr/bin/env git ls-remote --heads git@github.com:scrodde/vr-stockroom.git as scrodde@scrod.de
+ DEBUG [d77e9538] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vr-stockroom-production-scrodde.sh" ; /usr/bin/env git ls-remote --heads git@github.com:scrodde/vr-stockroom.git )
+ DEBUG [d77e9538] 	cf5c6a4c6d2a686635086da5b8a464b8255a24bc	refs/heads/master
+  INFO [d77e9538] Finished in 0.747 seconds with exit status 0 (successful).
+  INFO [a149ad71] Running /usr/bin/env mkdir -p ~/apps/vr-stockroom/shared ~/apps/vr-stockroom/releases as scrodde@scrod.de
+ DEBUG [a149ad71] Command: /usr/bin/env mkdir -p ~/apps/vr-stockroom/shared ~/apps/vr-stockroom/releases
+  INFO [a149ad71] Finished in 0.273 seconds with exit status 0 (successful).
+  INFO [466feee4] Running /usr/bin/env mkdir -p ~/apps/vr-stockroom/shared/config as scrodde@scrod.de
+ DEBUG [466feee4] Command: /usr/bin/env mkdir -p ~/apps/vr-stockroom/shared/config
+  INFO [466feee4] Finished in 0.211 seconds with exit status 0 (successful).
+ DEBUG [cec71090] Running [ -f ~/apps/vr-stockroom/shared/config/pm2.json ] as scrodde@scrod.de
+ DEBUG [cec71090] Command: [ -f ~/apps/vr-stockroom/shared/config/pm2.json ]
+ DEBUG [cec71090] Finished in 0.209 seconds with exit status 0 (successful).
+ DEBUG [c0175995] Running [ -f ~/apps/vr-stockroom/shared/config/secrets.yml ] as scrodde@scrod.de
+ DEBUG [c0175995] Command: [ -f ~/apps/vr-stockroom/shared/config/secrets.yml ]
+ DEBUG [c0175995] Finished in 0.214 seconds with exit status 1 (failed).
+ ERROR linked file ~/apps/vr-stockroom/shared/config/secrets.yml does not exist on scrod.de
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-13 15:44:22 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [10a1c5e2] Running /usr/bin/env mkdir -p /tmp as scrodde@scrod.de
+ DEBUG [10a1c5e2] Command: /usr/bin/env mkdir -p /tmp
+  INFO [10a1c5e2] Finished in 1.811 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-vr-stockroom-production-scrodde.sh 0.0%
+  INFO Uploading /tmp/git-ssh-vr-stockroom-production-scrodde.sh 100.0%
+  INFO [f28d00a2] Running /usr/bin/env chmod 700 /tmp/git-ssh-vr-stockroom-production-scrodde.sh as scrodde@scrod.de
+ DEBUG [f28d00a2] Command: /usr/bin/env chmod 700 /tmp/git-ssh-vr-stockroom-production-scrodde.sh
+  INFO [f28d00a2] Finished in 0.229 seconds with exit status 0 (successful).
+  INFO [c0f71a30] Running /usr/bin/env git ls-remote --heads git@github.com:scrodde/vr-stockroom.git as scrodde@scrod.de
+ DEBUG [c0f71a30] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vr-stockroom-production-scrodde.sh" ; /usr/bin/env git ls-remote --heads git@github.com:scrodde/vr-stockroom.git )
+ DEBUG [c0f71a30] 	cf5c6a4c6d2a686635086da5b8a464b8255a24bc	refs/heads/master
+  INFO [c0f71a30] Finished in 0.763 seconds with exit status 0 (successful).
+  INFO [f01aa7c4] Running /usr/bin/env mkdir -p ~/apps/vr-stockroom/shared ~/apps/vr-stockroom/releases as scrodde@scrod.de
+ DEBUG [f01aa7c4] Command: /usr/bin/env mkdir -p ~/apps/vr-stockroom/shared ~/apps/vr-stockroom/releases
+  INFO [f01aa7c4] Finished in 0.230 seconds with exit status 0 (successful).
+  INFO [756fde65] Running /usr/bin/env mkdir -p ~/apps/vr-stockroom/shared/config as scrodde@scrod.de
+ DEBUG [756fde65] Command: /usr/bin/env mkdir -p ~/apps/vr-stockroom/shared/config
+  INFO [756fde65] Finished in 0.224 seconds with exit status 0 (successful).
+ DEBUG [2e052737] Running [ -f ~/apps/vr-stockroom/shared/config/pm2.json ] as scrodde@scrod.de
+ DEBUG [2e052737] Command: [ -f ~/apps/vr-stockroom/shared/config/pm2.json ]
+ DEBUG [2e052737] Finished in 0.222 seconds with exit status 0 (successful).
+ DEBUG [08bc4f4d] Running [ -f ~/apps/vr-stockroom/current/REVISION ] as scrodde@scrod.de
+ DEBUG [08bc4f4d] Command: [ -f ~/apps/vr-stockroom/current/REVISION ]
+ DEBUG [08bc4f4d] Finished in 0.222 seconds with exit status 0 (successful).
+ DEBUG [4025bc63] Running /usr/bin/env cat ~/apps/vr-stockroom/current/REVISION 2>/dev/null as scrodde@scrod.de
+ DEBUG [4025bc63] Command: /usr/bin/env cat ~/apps/vr-stockroom/current/REVISION 2>/dev/null
+ DEBUG [4025bc63] 	cf5c6a4c6d2a686635086da5b8a464b8255a24bc
+ DEBUG [4025bc63] Finished in 0.227 seconds with exit status 0 (successful).
+ DEBUG [12b70d72] Running [ -f ~/apps/vr-stockroom/repo/HEAD ] as scrodde@scrod.de
+ DEBUG [12b70d72] Command: [ -f ~/apps/vr-stockroom/repo/HEAD ]
+ DEBUG [12b70d72] Finished in 0.248 seconds with exit status 0 (successful).
+  INFO The repository mirror is at ~/apps/vr-stockroom/repo
+ DEBUG [ab075b13] Running if test ! -d ~/apps/vr-stockroom/repo; then echo "Directory does not exist '~/apps/vr-stockroom/repo'" 1>&2; false; fi as scrodde@scrod.de
+ DEBUG [ab075b13] Command: if test ! -d ~/apps/vr-stockroom/repo; then echo "Directory does not exist '~/apps/vr-stockroom/repo'" 1>&2; false; fi
+ DEBUG [ab075b13] Finished in 0.236 seconds with exit status 0 (successful).
+  INFO [df6887b1] Running /usr/bin/env git remote update --prune as scrodde@scrod.de
+ DEBUG [df6887b1] Command: cd ~/apps/vr-stockroom/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vr-stockroom-production-scrodde.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [df6887b1] 	Fetching origin
+  INFO [df6887b1] Finished in 0.782 seconds with exit status 0 (successful).
+ DEBUG [1a9236c1] Running if test ! -d ~/apps/vr-stockroom/repo; then echo "Directory does not exist '~/apps/vr-stockroom/repo'" 1>&2; false; fi as scrodde@scrod.de
+ DEBUG [1a9236c1] Command: if test ! -d ~/apps/vr-stockroom/repo; then echo "Directory does not exist '~/apps/vr-stockroom/repo'" 1>&2; false; fi
+ DEBUG [1a9236c1] Finished in 0.226 seconds with exit status 0 (successful).
+  INFO [16834a83] Running /usr/bin/env mkdir -p ~/apps/vr-stockroom/releases/20161213134428 as scrodde@scrod.de
+ DEBUG [16834a83] Command: cd ~/apps/vr-stockroom/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vr-stockroom-production-scrodde.sh" ; /usr/bin/env mkdir -p ~/apps/vr-stockroom/releases/20161213134428 )
+  INFO [16834a83] Finished in 0.225 seconds with exit status 0 (successful).
+  INFO [a8a27d41] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C ~/apps/vr-stockroom/releases/20161213134428 as scrodde@scrod.de
+ DEBUG [a8a27d41] Command: cd ~/apps/vr-stockroom/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vr-stockroom-production-scrodde.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C ~/apps/vr-stockroom/releases/20161213134428 )
+  INFO [a8a27d41] Finished in 0.302 seconds with exit status 0 (successful).
+ DEBUG [7042ba2d] Running if test ! -d ~/apps/vr-stockroom/repo; then echo "Directory does not exist '~/apps/vr-stockroom/repo'" 1>&2; false; fi as scrodde@scrod.de
+ DEBUG [7042ba2d] Command: if test ! -d ~/apps/vr-stockroom/repo; then echo "Directory does not exist '~/apps/vr-stockroom/repo'" 1>&2; false; fi
+ DEBUG [7042ba2d] Finished in 0.222 seconds with exit status 0 (successful).
+ DEBUG [61e7b617] Running /usr/bin/env git rev-list --max-count=1 master as scrodde@scrod.de
+ DEBUG [61e7b617] Command: cd ~/apps/vr-stockroom/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-vr-stockroom-production-scrodde.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [61e7b617] 	cf5c6a4c6d2a686635086da5b8a464b8255a24bc
+ DEBUG [61e7b617] Finished in 0.227 seconds with exit status 0 (successful).
+ DEBUG [c856d1ff] Running if test ! -d ~/apps/vr-stockroom/releases/20161213134428; then echo "Directory does not exist '~/apps/vr-stockroom/releases/20161213134428'" 1>&2; false; fi as scrodde@scrod.de
+ DEBUG [c856d1ff] Command: if test ! -d ~/apps/vr-stockroom/releases/20161213134428; then echo "Directory does not exist '~/apps/vr-stockroom/releases/20161213134428'" 1>&2; false; fi
+ DEBUG [c856d1ff] Finished in 0.223 seconds with exit status 0 (successful).
+  INFO [eaeca236] Running /usr/bin/env echo "cf5c6a4c6d2a686635086da5b8a464b8255a24bc" >> REVISION as scrodde@scrod.de
+ DEBUG [eaeca236] Command: cd ~/apps/vr-stockroom/releases/20161213134428 && /usr/bin/env echo "cf5c6a4c6d2a686635086da5b8a464b8255a24bc" >> REVISION
+  INFO [eaeca236] Finished in 0.227 seconds with exit status 0 (successful).
+  INFO [e3dd8551] Running /usr/bin/env mkdir -p ~/apps/vr-stockroom/releases/20161213134428/config as scrodde@scrod.de
+ DEBUG [e3dd8551] Command: /usr/bin/env mkdir -p ~/apps/vr-stockroom/releases/20161213134428/config
+  INFO [e3dd8551] Finished in 0.232 seconds with exit status 0 (successful).
+ DEBUG [ca5ba67b] Running [ -L ~/apps/vr-stockroom/releases/20161213134428/config/pm2.json ] as scrodde@scrod.de
+ DEBUG [ca5ba67b] Command: [ -L ~/apps/vr-stockroom/releases/20161213134428/config/pm2.json ]
+ DEBUG [ca5ba67b] Finished in 0.232 seconds with exit status 1 (failed).
+ DEBUG [18c3f7ae] Running [ -f ~/apps/vr-stockroom/releases/20161213134428/config/pm2.json ] as scrodde@scrod.de
+ DEBUG [18c3f7ae] Command: [ -f ~/apps/vr-stockroom/releases/20161213134428/config/pm2.json ]
+ DEBUG [18c3f7ae] Finished in 0.222 seconds with exit status 1 (failed).
+  INFO [85e77029] Running /usr/bin/env ln -s ~/apps/vr-stockroom/shared/config/pm2.json ~/apps/vr-stockroom/releases/20161213134428/config/pm2.json as scrodde@scrod.de
+ DEBUG [85e77029] Command: /usr/bin/env ln -s ~/apps/vr-stockroom/shared/config/pm2.json ~/apps/vr-stockroom/releases/20161213134428/config/pm2.json
+  INFO [85e77029] Finished in 0.224 seconds with exit status 0 (successful).
+  INFO [603a5c84] Running /usr/bin/env ln -s ~/apps/vr-stockroom/releases/20161213134428 ~/apps/vr-stockroom/releases/current as scrodde@scrod.de
+ DEBUG [603a5c84] Command: /usr/bin/env ln -s ~/apps/vr-stockroom/releases/20161213134428 ~/apps/vr-stockroom/releases/current
+  INFO [603a5c84] Finished in 0.229 seconds with exit status 0 (successful).
+  INFO [d0f0d98b] Running /usr/bin/env mv ~/apps/vr-stockroom/releases/current ~/apps/vr-stockroom as scrodde@scrod.de
+ DEBUG [d0f0d98b] Command: /usr/bin/env mv ~/apps/vr-stockroom/releases/current ~/apps/vr-stockroom
+  INFO [d0f0d98b] Finished in 0.233 seconds with exit status 0 (successful).
+ DEBUG [c89a6a49] Running /usr/bin/env ls -x ~/apps/vr-stockroom/releases as scrodde@scrod.de
+ DEBUG [c89a6a49] Command: /usr/bin/env ls -x ~/apps/vr-stockroom/releases
+ DEBUG [c89a6a49] 	20161213134127	20161213134428
+ DEBUG [c89a6a49] Finished in 0.230 seconds with exit status 0 (successful).
+ DEBUG [077a61a3] Running if test ! -d ~/apps/vr-stockroom/releases; then echo "Directory does not exist '~/apps/vr-stockroom/releases'" 1>&2; false; fi as scrodde@scrod.de
+ DEBUG [077a61a3] Command: if test ! -d ~/apps/vr-stockroom/releases; then echo "Directory does not exist '~/apps/vr-stockroom/releases'" 1>&2; false; fi
+ DEBUG [077a61a3] Finished in 0.226 seconds with exit status 0 (successful).
+  INFO [55940058] Running /usr/bin/env echo "Branch master (at cf5c6a4c6d2a686635086da5b8a464b8255a24bc) deployed as release 20161213134428 by scrodde" >> ~/apps/vr-stockroom/revisions.log as scrodde@scrod.de
+ DEBUG [55940058] Command: cd ~/apps/vr-stockroom/releases && /usr/bin/env echo "Branch master (at cf5c6a4c6d2a686635086da5b8a464b8255a24bc) deployed as release 20161213134428 by scrodde" >> ~/apps/vr-stockroom/revisions.log
+  INFO [55940058] Finished in 0.229 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-13 15:47:36 +0200 cap production pm2:start
+  INFO ---------------------------------------------------------------------------
+ DEBUG [4b458d1c] Running if test ! -d ~/apps/vr-stockroom/current; then echo "Directory does not exist '~/apps/vr-stockroom/current'" 1>&2; false; fi as scrodde@scrod.de
+ DEBUG [4b458d1c] Command: if test ! -d ~/apps/vr-stockroom/current; then echo "Directory does not exist '~/apps/vr-stockroom/current'" 1>&2; false; fi
+ DEBUG [4b458d1c] Finished in 1.638 seconds with exit status 0 (successful).
+  INFO [503d9466] Running /usr/bin/env pm2 start config/pm2.json as scrodde@scrod.de
+ DEBUG [503d9466] Command: cd ~/apps/vr-stockroom/current && /usr/bin/env pm2 start config/pm2.json
+ DEBUG [503d9466] 	/usr/bin/env: 
+ DEBUG [503d9466] 	pm2
+ DEBUG [503d9466] 	: No such file or directory
+ DEBUG [503d9466] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-13 16:03:44 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [7dfbef5d] Running /usr/bin/env mkdir -p /tmp as scrodde@scrod.de
+ DEBUG [7dfbef5d] Command: /usr/bin/env mkdir -p /tmp
+  INFO [7dfbef5d] Finished in 1.837 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-13 16:03:51 +0200 cap production pm2:start
+  INFO ---------------------------------------------------------------------------
+ DEBUG [9c5ccc2a] Running if test ! -d ~/apps/vr-stockroom/current; then echo "Directory does not exist '~/apps/vr-stockroom/current'" 1>&2; false; fi as scrodde@scrod.de
+ DEBUG [9c5ccc2a] Command: if test ! -d ~/apps/vr-stockroom/current; then echo "Directory does not exist '~/apps/vr-stockroom/current'" 1>&2; false; fi
+ DEBUG [9c5ccc2a] Finished in 1.602 seconds with exit status 0 (successful).
+  INFO [21871345] Running /usr/bin/env pm2 start config/pm2.json as scrodde@scrod.de
+ DEBUG [21871345] Command: cd ~/apps/vr-stockroom/current && /usr/bin/env pm2 start config/pm2.json
+ DEBUG [21871345] 	/usr/bin/env: 
+ DEBUG [21871345] 	pm2
+ DEBUG [21871345] 	: No such file or directory
+ DEBUG [21871345] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-13 16:19:50 +0200 cap production pm2:start
+  INFO ---------------------------------------------------------------------------
+ DEBUG [3b761a6f] Running if test ! -d ~/apps/vr-stockroom/current; then echo "Directory does not exist '~/apps/vr-stockroom/current'" 1>&2; false; fi as scrodde@scrod.de
+ DEBUG [3b761a6f] Command: if test ! -d ~/apps/vr-stockroom/current; then echo "Directory does not exist '~/apps/vr-stockroom/current'" 1>&2; false; fi
+ DEBUG [3b761a6f] Finished in 2.818 seconds with exit status 0 (successful).
+  INFO [d9d90226] Running /usr/bin/env pm2 start config/pm2.json as scrodde@scrod.de
+ DEBUG [d9d90226] Command: cd ~/apps/vr-stockroom/current && /usr/bin/env pm2 start config/pm2.json
+ DEBUG [d9d90226] 	/usr/bin/env: 
+ DEBUG [d9d90226] 	pm2
+ DEBUG [d9d90226] 	: No such file or directory
+ DEBUG [d9d90226] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-13 16:27:32 +0200 cap production pm2:start
+  INFO ---------------------------------------------------------------------------
+ DEBUG [fd867da0] Running if test ! -d ~/apps/vr-stockroom/current; then echo "Directory does not exist '~/apps/vr-stockroom/current'" 1>&2; false; fi as scrodde@scrod.de
+ DEBUG [fd867da0] Command: if test ! -d ~/apps/vr-stockroom/current; then echo "Directory does not exist '~/apps/vr-stockroom/current'" 1>&2; false; fi
+ DEBUG [fd867da0] Finished in 2.410 seconds with exit status 0 (successful).
+  INFO [edcac9cb] Running /usr/bin/env pm2 start config/pm2.json as scrodde@scrod.de
+ DEBUG [edcac9cb] Command: cd ~/apps/vr-stockroom/current && /usr/bin/env pm2 start config/pm2.json
+ DEBUG [edcac9cb] 	/usr/bin/env: 
+ DEBUG [edcac9cb] 	pm2
+ DEBUG [edcac9cb] 	: No such file or directory
+ DEBUG [edcac9cb] 	

@@ -1,0 +1,67 @@
+:global(#loader) {
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  z-index: 99999;
+}
+
+:global(#loader img) {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+  margin-top: 40vh;
+}
+
+:global(#loader p) {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  text-align: center;
+}
+
+:global(#circle) {
+  animation: animate 1.5s linear infinite;
+  clip: rect(0, 260px, 260px, 130px);
+  height: 260px;
+  width: 260px;
+  position: absolute;
+  left: calc(50% - 130px);
+  top: calc(50% - 130px);
+  margin-top: -45px;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg)
+  }
+  100% {
+    transform: rotate(220deg)
+  }
+}
+
+:global(#circle:after) {
+  animation: animate2 1.5s ease-in-out infinite;
+  clip: rect(0, 260px, 260px, 130px);
+  content:'';
+  border-radius: 50%;
+  height: 260px;
+  width: 260px;
+  position: absolute;
+}
+
+@keyframes animate2 {
+  0% {
+    box-shadow: inset #000 0 0 0 17px;
+    transform: rotate(-140deg);
+  }
+  50% {
+    box-shadow: inset #000 0 0 0 2px;
+  }
+  100% {
+    box-shadow: inset #000 0 0 0 17px;
+    transform: rotate(140deg);
+  }
+}

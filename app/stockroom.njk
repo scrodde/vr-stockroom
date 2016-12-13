@@ -1,0 +1,77 @@
+<a-scene stats>
+  <a-assets>
+
+    {# <a-asset-item id="myModelObj" src="hands/hands.obj"></a-asset-item>
+    <a-asset-item id="myModelMtl" src="hands/hands.mtl"></a-asset-item> #}
+    <a-asset-item id="trolleyObj" src="trolley/trolley.obj"></a-asset-item>
+    <a-asset-item id="trolleyMtl" src="trolley/trolley.mtl"></a-asset-item>
+    {# <a-asset-item id="rackObj" src="rack/rack2.obj"></a-asset-item>
+    <a-asset-item id="rackMtl" src="rack/rack2.mtl"></a-asset-item> #}
+
+    <img id="morpheus" src="morpheus.png">
+
+    {% for product in products -%}
+      <img id="product-{{product.id}}" src="{{product.img}}" crossorigin="anonymous">
+    {%- endfor %}
+
+  </a-assets>
+
+  {% for col in range(-40, 40, 4) -%}
+    <a-entity position="{{col}} 0.9 0">
+    {% for row in range(-100, 200, 3) -%}
+      <a-box color="#CCC" width="0.8" height="1.8" depth="2.5"
+        position="0 0 {{row}}" scale="1 1 1" opacity="0.7"></a-box>
+      {%- endfor %}
+    </a-entity>
+  {%- endfor %}
+
+  {% for product in products -%}
+    {% set z = 10 - loop.index0 %}
+    <a-entity position="-1 1 {{z}}" rotation="0 -20 0" product="{{product.id}}">
+      <a-entity text="text: {{product.title}}; size:0.1; height: 0" position="-0.45 0.55 0.001" material="color: #000"></a-entity>
+      <a-entity text="text: {{product.price}}e; size:0.2; height: 0" position="-0.30 -0.40 0.001" rotation="0 0 45" material="color: #FF0000"></a-entity>
+      <a-image src="#product-{{product.id}}" width="0.95" height="1.4" crossorigin="anonymous"></a-image>
+    </a-entity>
+  {%- endfor %}
+
+  <a-plane id="checkout" color="#000" height="2" width="9" position="-2 4 -50" checkout>
+    <a-entity text="text: CHECKOUT; size:1.1; height: 0" position="-4 -0.5 0 0.1" material="color: #FFF"></a-entity>
+  </a-plane>
+
+  {# <a-entity id="rack" obj-model="obj: #rackObj; mtl: #rackMtl" position="-2 1 -1.4" rotation="0 0 0" scale="1.1 1.1 1.1"></a-entity> #}
+
+  <a-plane id="floor" color="#FFF" height="400" width="400" rotation="-90 0 0"></a-plane>
+
+  <a-image id="morpheus" src="#morpheus" width="1.6" height="1.6" position="-3 0.66 -2" look-at="[camera]"></a-image>
+
+  <a-entity id="checkout-section" position="-2 4 -60">
+  </a-entity>
+
+  <a-entity id="player" position="-2 0 215" camera="userHeight: 1.6" look-controls wasd-controls>
+    <a-entity obj-model="obj: #trolleyObj; mtl: #trolleyMtl" position="0 -1.6 -1.4" rotation="0 -85 0" scale="1.1 1.1 1.1">
+      <a-entity id="cart-content" position="-0.3 0.8 0">
+        {# <a-plane color="#0FF" height="0.5" width="0.3" rotation="-30 90 0"></a-plane> #}
+      </a-entity>
+    </a-entity>
+    {# <a-entity obj-model="obj: #myModelObj; mtl: #myModelMtl" position="-2 1.6 -1.4" rotation="0 90 90" scale="2.4 2.4 2.4"></a-entity> #}
+    {# <a-entity obj-model="obj: #myModelObj; mtl: #myModelMtl" position="0 0 1.5" ></a-entity> #}
+    {# <a-entity camera="userHeight: 1.6" look-controls wasd-controls > #}
+    <a-entity cursor="fuse: false; fuseTimeout: 500"
+         position="0 0 -1"
+         geometry="primitive: ring"
+         scale="0.01 0.01 0.01"
+         material="color: black; shader: flat">
+    </a-entity>
+    {# </a-entity> #}
+
+
+    <a-animation attribute="position"
+             dur="4500"
+             easing="ease-in-expo"
+             delay="2000"
+             fill="forwards"
+             to="-2 1.6 1"></a-animation>
+
+  </a-entity>
+
+</a-scene>

@@ -1,0 +1,7 @@
+{% for product in products -%}
+  <a-entity position="0 0 0" scale="0.5 0.5 0.5" rotation="-30 90 0" product="{{product.id}}">
+    <a-entity text="text: {{product.title}}; size:0.1; height: 0" position="-0.45 0.55 0.001" material="color: #000"></a-entity>
+    <a-entity text="text: {{product.price}}e; size:0.2; height: 0" position="-0.30 -0.40 0.001" rotation="0 0 45" material="color: #FF0000"></a-entity>
+    <a-image src="#product-{{product.id}}" width="0.95" height="1.4" crossorigin="anonymous"></a-image>
+  </a-entity>
+{%- endfor %}
